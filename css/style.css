@@ -1,0 +1,340 @@
+
+@font-face {
+    font-family: "arabic";
+    src: url("Naskh-Nastaleeq-IndoPak-QWBW.woff") format('woff');
+}
+*{
+    font-family: 'Quicksand';
+    font-weight: bold;
+}
+h1,h2,h3{
+    color:white
+}
+h1{
+    font-size:7rem;
+    
+}
+h2{
+    font-size: 60px;
+}
+h3{
+    font-size: 55px;
+    margin-top:45px
+}
+.date{
+    font-size:7rem; 
+    color:white
+}
+.badge{
+    font-size:20px
+}
+.timebx{
+    height:200px; 
+background-size: contain !important;
+background-repeat:no-repeat !important;
+margin-left:2pt;
+text-align:center;
+padding:20px 10px
+}
+
+.timebx h4{
+
+    font-size:20px
+}
+.timebx p{
+
+    font-size:3.4rem
+}
+
+
+
+.social{
+    background: black;
+                    margin-top: -93px;
+                    min-height: 100px;
+                    border-radius: 20px;
+                    max-width: 90%;
+                    margin: 0px auto;
+                    margin-top: -100px !important;
+                    padding-top: 27px;
+    margin-top: -100px !important;
+}
+
+.mainbg{
+    padding:20px; padding-top:0px; margin-top:10px;
+    background-size:cover
+}
+
+@media (min-width: 768px){
+.container {
+    max-width: 1200px;
+}}
+
+.whitebadge{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.loader{
+    position:fixed; top:0; left:0
+}
+
+.header{
+    background: rgb(51,63,199);
+    background: radial-gradient(circle, rgb(255 255 255) 0%, rgb(241 226 229) 100%);
+}
+.header img{
+    max-height: 100px;
+    margin: 0px auto;
+    background: white;
+    border-radius: 42px;
+    padding: 5px;
+    box-shadow: 0px 0px 24px #ffffffc7;
+}
+.english-date{
+    font-size:30pt; color:white"
+}
+.city{
+    font-size:60pt
+}
+.date-and-location{
+    text-align: right;
+    padding-right: 6pt;
+    padding-right:20pt
+}
+
+.ayah{
+    background:white; 
+    margin:0px auto; 
+    margin-top:40px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 67%, rgba(255,255,255,0) 100%); 
+ 
+    border-radius:20px; 
+}
+#arabic{
+    font-family:arabic;
+    padding: 30px; 
+    padding-right:65px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#translation{
+    color: white;
+    padding: 50px 20pt;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.4;
+}
+.pin{
+
+        position: unset; 
+        float: right;
+        margin-top: -50px;
+
+}
+.time-label{
+    background:url('../img/6.png') no-repeat; background-position:center center;
+                     margin: 10px 0px 50px 0px;
+                     padding: 21px 0px 31px 0px;    background-size:370px;         
+                     text-align:center
+}
+.time-label h4{
+    font-size:38px; 
+    margin: 26pt auto;
+    font-weight: bold;
+}
+
+.footer{
+    background:#ccc; color:white; background: rgb(48 48 48);
+                 color: white;
+                 margin-top: 100px;
+                 margin-bottom: -20px;
+                 text-align: center;
+                 padding-top: 20px;
+                 border-top-right-radius: 10px;
+                 border-top-left-radius: 10px;
+                 background: rgb(48, 48, 48);
+                 color: white;
+                 margin-top: 100px;
+                 margin-bottom: -20px;
+                 text-align: center;
+                 padding-top: 50px;
+                 border-top-right-radius: 10px;
+                 border-top-left-radius: 10px;
+                 min-height: 110px;
+                 font-size: 32px;
+}
+.footer p{
+    font-size:18px;    font-size: 18px;
+                        margin-top: 30px;
+                        margin-bottom: 32px;
+}
+.footer img{
+    height:50px; margin:0px 20px
+}
+@media screen and (max-width:1000px){
+
+    h1{
+        font-size: 43px !important;
+    }
+
+    .whitebadge{
+        min-height:100px !important;
+        height: 85px !important;
+    }
+
+    h2 {
+        font-size: 22px;  
+          margin-left: 20px;
+        margin-bottom: 0;
+    }
+    h3{font-size: 22px;
+        margin-top: 12px;
+    }
+    .english-date{
+        font-size: 12pt;
+    }
+
+    .city{
+        font-size:23pt
+    }
+
+    .date-and-location{
+        padding-top: 15px !important;
+        text-align:right; 
+        padding-right:0pt;
+        padding-left: 0px;
+    }
+
+    .islamic-date {
+        padding-top: 5px !important;
+        padding-left: 0px;
+        margin-left: -9px;
+    }
+
+    .pin{
+        position: unset;
+        right: 0;
+        top: -65px;
+        right: 35px;
+        margin-top: -26px;
+        right: 36px;
+        float: right;
+        height: 79px;
+        margin-right: 12px;
+    }
+
+    .ayah{
+        margin-top:0px ;
+    }
+
+    #arabic{    font-family: arabic;
+        padding: 10px 10px 9px 14px;
+        font-size: 19px;
+        text-align: center;
+        font-size: 13pt;
+    }
+
+    #translation{    
+        color: white;
+        
+        padding: 6px 20pt 0px 20px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .badge {
+        font-size: 13px;
+    }
+    .date {
+        font-size: 30pt;
+        text-align: right;
+    }
+
+    .badge {
+        font-size: 12px;
+        margin-top: -5px;
+    }
+    .whitebadge {
+        min-height: 69px !important;
+        height: 65px !important;
+        padding-top: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 5px 0;
+    }
+
+    .time-label {
+        background-size: 150px;
+        margin: 0px 0px 13px 0px;
+    }
+    .time-label h4
+    {
+        font-size: 14px;
+    margin: 0pt auto;
+    font-weight: bold;
+    margin-top: 10px;
+    }
+    .timebx {
+        height: 100%;
+        padding: 4px 3px;
+    }
+    .timebx h4 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .timebx p {
+        font-size: 20px;
+    }
+    .social{
+        min-height: unset;
+    border-radius: 5px;
+    padding: 9px;
+    margin-top: -10px !important;
+    box-shadow: 1px 1px 3px #b9a8a854;
+
+    font-size: 18px;
+
+
+    }
+    .footer{
+                     font-size: 18px;
+                     margin-top: 20px;
+                     margin-bottom: -20px;
+                     text-align: center;
+                     padding-top: 0;
+                     border-top-right-radius: 5px;
+                     border-top-left-radius: 5px;
+                     min-height: 47px;
+                     font-size: 32px;
+    }
+
+    .footer img{
+        height:20px; margin:0px 20px
+    }
+
+    .footer p{
+        font-size: 12px;
+    margin-top: -30px;
+    margin-bottom: 34px;
+    position: absolute;
+   
+    margin-top: -318px;
+    opacity: 0.3;
+    margin-left: -145px;
+    z-index: 9;
+    text-shadow: 1px 1px 1px #00000066;
+
+    margin: -153px 0px 0 50px;
+    font-size: 12px;
+    z-index: 99;
+    }
+
+
+}
+
+
