@@ -10,6 +10,7 @@ Feel free to modify it and use it for your own projects if its is useful, only e
 
 This project was made for my self use as I used to create these graphics manually for my friends and shared them. However it became tedious to match everyday's correct timing resulting in mistakes. 
 
+
 This little app uses Quran.cloud api to fetch timings. 
 
 The list of cities supported is very small however you can make a pull request after integrating your own city. The file for list of cities is included in this repo.
