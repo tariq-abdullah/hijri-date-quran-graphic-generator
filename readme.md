@@ -2,9 +2,15 @@
 
 Using this little tool you can generate social media graphic containing Quranic Verse, its translation and Timing for Salah.
 
-Demo can be found here: 
+Live Demo can be found here: 
 
 islamic-graphic-generator.netlify.app
+
+
+Example Image:
+
+[Example](tariq-abdullah.github.com/tariq-abdullah/hijri-date-quran-graphic-generator/img/example.jpg)
+
 
 Feel free to modify it and use it for your own projects if its is useful, only expectation from you then will be some dua for me and the whole ummah.
 
